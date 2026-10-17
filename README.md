@@ -1,6 +1,25 @@
 # fitresume
 
+[![License](https://img.shields.io/github/license/seonwooj0810/fitresume)](LICENSE) [![Version](https://img.shields.io/github/v/tag/seonwooj0810/fitresume?label=version)](https://github.com/seonwooj0810/fitresume/tags) ![Claude Code plugin](https://img.shields.io/badge/Claude%20Code-plugin-D97757)
+
 기존 이력서를 채용 공고에 맞춰 조정하는 Claude Code 플러그인입니다. **사용자가 확인한 사실만** 쓰고, 공고 키워드를 억지로 끼워 넣지 않으며, 파일은 **수정안을 보여 주고 승인을 받은 뒤에만** 고칩니다.
+
+> **English:** fitresume tailors an existing résumé to a job posting using only facts you confirm. It analyzes the posting, proposes a diff, scores the result, lists gaps instead of stuffing keywords, and edits your file only after you approve. Output language is Korean.
+>
+> `claude plugin marketplace add seonwooj0810/fitresume` → `claude plugin install fitresume@fitresume-marketplace`
+
+## 예시 출력
+
+경력 연수를 날짜로 다시 계산해 이력서의 "5년"을 바로잡는 수정안의 예시입니다(가상 인물).
+
+```diff
+- Java/Spring 기반 결제·정산 백엔드 5년 경력.
++ Java/Spring 기반 결제·정산 백엔드 엔지니어. 결제·정산 도메인 4년 7개월 경력.
+```
+
+공고가 요구하지만 이력서에 근거가 없는 항목(팀 리딩·멘토링, Kubernetes 등)은 키워드를 끼워 넣지 않고 **공백**으로 따로 알려 줍니다.
+
+---
 
 ## 설치
 
@@ -52,6 +71,10 @@ fitresume/
 ├── LICENSE
 └── README.md
 ```
+
+## 기여와 문의
+
+버그나 개선 제안은 [이슈](https://github.com/seonwooj0810/fitresume/issues)로 남겨 주세요.
 
 ## 라이선스
 
