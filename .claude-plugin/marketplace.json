@@ -1,0 +1,31 @@
+{
+  "name": "fitresume-marketplace",
+  "owner": {
+    "name": "seonwooj0810"
+  },
+  "metadata": {
+    "description": "이력서를 채용 공고에 맞춰 조정하는 스킬",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "fitresume",
+      "description": "기존 이력서를 채용 공고에 맞춰 조정하고 수정안을 제안해 승인을 받습니다. 사실만 사용하며 키워드를 끼워 넣지 않고 Word 렌더러도 없습니다.",
+      "version": "1.0.0",
+      "source": "./",
+      "author": {
+        "name": "seonwooj0810"
+      },
+      "homepage": "https://github.com/seonwooj0810/fitresume#readme",
+      "repository": "https://github.com/seonwooj0810/fitresume",
+      "license": "MIT",
+      "keywords": [
+        "resume",
+        "job-search",
+        "career",
+        "tailoring"
+      ],
+      "category": "productivity"
+    }
+  ]
+}
