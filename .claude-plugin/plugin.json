@@ -9,6 +9,8 @@
   "repository": "https://github.com/seonwooj0810/fitresume",
   "homepage": "https://github.com/seonwooj0810/fitresume#readme",
   "license": "MIT",
+  "icon": "./.claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://github.com/seonwooj0810/fitresume/blob/main/PRIVACY.md",
   "keywords": [
     "resume",
     "job-search",
