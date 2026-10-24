@@ -2,7 +2,7 @@
 name: build-tailored-resume
 description: "기존 이력서를 특정 채용 공고에 맞춰 수정할 때 사용한다. 트리거: '공고에 맞춰 이력서 수정', '이력서 맞춤화', '이 JD에 맞게 이력서', '회사별 이력서', 'tailor my resume', 'customize resume for JD', 'build a targeted resume', 'resume for [company]', 또는 지원자 경력을 채용 공고에 맞추려는 모든 요청. 마스터 이력서와 채용 공고를 함께 줄 때도 트리거된다. 사용자 본인의 이력서 파일(resume.html, 마크다운 등)을 대상으로 하고, 수정안을 제안해 승인을 받는다. 일반적인 이력서 조언이나 자기소개서에는 쓰지 않는다."
 argument-hint: "[선택: 이력서 파일 경로]"
-allowed-tools: Read Edit Bash Glob Grep WebSearch WebFetch
+allowed-tools: Read Edit Glob Grep WebSearch WebFetch
 license: MIT
 ---
 

@@ -1,6 +1,6 @@
 {
   "name": "fitresume",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "기존 이력서를 채용 공고에 맞춰 조정하고 수정안을 제안해 승인을 받습니다. 사실만 사용하며 키워드를 끼워 넣지 않고 Word 렌더러도 없습니다.",
   "author": {
     "name": "seonwooj0810",
